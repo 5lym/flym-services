@@ -1,4 +1,4 @@
-package com.flym;
+package com.flym.services;
 
 /**
  * Hello world!
