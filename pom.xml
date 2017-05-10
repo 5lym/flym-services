@@ -7,7 +7,7 @@
   <version>1.0.0</version>
   <packaging>jar</packaging>
 
-  <name>services</name>
+  <name>flym-services</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,4 +22,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
+  <build>
+    <finalName>flym-services</finalName>
+  </build>
 </project>
