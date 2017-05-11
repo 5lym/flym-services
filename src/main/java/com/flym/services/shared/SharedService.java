@@ -23,6 +23,7 @@ public class SharedService {
   }
 
   public static class Client extends org.apache.thrift.TServiceClient implements Iface {
+
     public static class Factory implements org.apache.thrift.TServiceClientFactory<Client> {
       public Factory() {}
       public Client getClient(org.apache.thrift.protocol.TProtocol prot) {
@@ -32,7 +33,6 @@ public class SharedService {
         return new Client(iprot, oprot);
       }
     }
-
     public Client(org.apache.thrift.protocol.TProtocol prot)
     {
       super(prot, prot);
