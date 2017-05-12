@@ -62,13 +62,7 @@ include "shared.thrift"
  * Thrift files can namespace, package, or prefix their output in various
  * target languages.
  */
-namespace cpp com.flym.services.tutorial
-namespace d com.flym.services.tutorial
-namespace dart com.flym.services.tutorial
 namespace java com.flym.services.tutorial
-namespace php com.flym.services.tutorial
-namespace perl com.flym.services.tutorial
-namespace haxe com.flym.services.tutorial
 //namespace netcore com.flym.services.tutorial
 
 /**

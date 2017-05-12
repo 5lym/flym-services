@@ -22,13 +22,7 @@
  * these definitions.
  */
 
-namespace cpp com.flym.services.shared
-namespace d com.flym.services.share // "com.flym.services.shared" would collide with the eponymous D keyword.
-namespace dart com.flym.services.shared
 namespace java com.flym.services.shared
-namespace perl com.flym.services.shared
-namespace php com.flym.services.shared
-namespace haxe com.flym.services.shared
 //namespace netcore com.flym.services.shared
 
 struct SharedStruct {
